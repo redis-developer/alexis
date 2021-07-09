@@ -31,12 +31,7 @@
     "JSON.GET",
     "JSON.SET"
   ],
-  "redis_features": [
-    "sessions",
-    "search",
-    "inference",
-    "json"
-  ],
+  "redis_features": [],
   "redis_modules": [
     "RedisJSON",
     "RediSearch",

@@ -123,6 +123,8 @@ Now let's break down how the *Upload PDFs & Index PDF Content* and the *Answer Q
 
 ### Commands
 
+Change directory to node_modules and run the below CLI in sequence:
+
 1. npm install
 2. npm run bootstrap 
 3. npm start

@@ -1,7 +1,7 @@
 {
   "app_name": "Alexis",
   "description": "Information retrival using RediSearch, RedisJSON and RedisAI",
-  "rank": "85",
+  "rank": 88,
   "type": "Full App",
   "contributed_by": "Community",
   "repo_url": "https://github.com/redis-developer/alexis",

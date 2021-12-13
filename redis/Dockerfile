@@ -1,4 +1,4 @@
-FROM redislabs/redisai:edge-cpu as redisai
+FROM redislabs/redisai:latest as redisai
 FROM redislabs/redisearch:latest as redisearch
 FROM redislabs/rejson:latest as rejson
 

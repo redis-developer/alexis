@@ -1,6 +1,6 @@
 {
   "app_name": "Alexis",
-  "description": "Information retrival using RediSearch, RedisJSON and RedisAI",
+  "description": "Information retrieval using Redis features like JSON, Search and Query",
   "rank": 88,
   "type": "Full App",
   "contributed_by": "Community",
@@ -10,13 +10,13 @@
   "hosted_url": "",
   "quick_deploy": "false",
   "deploy_buttons": [
-        {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/alexis.git" 
-        },
-        {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/alexis.git" 
-        }
-    ],
+    {
+      "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/alexis.git"
+    },
+    {
+      "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/alexis.git"
+    }
+  ],
   "language": [
     "TypeScript"
   ],
@@ -32,11 +32,10 @@
     "JSON.GET",
     "JSON.SET"
   ],
-  "redis_features": [],
-  "redis_modules": [
-    "RedisJSON",
-    "RediSearch",
-    "RedisAI"
+  "redis_use_cases": [],
+  "redis_features": [
+    "JSON",
+    "Search and Query"
   ],
   "youtube_url": "https://www.youtube.com/watch?v=0L8gvs7whhk",
   "special_tags": [
@@ -45,7 +44,6 @@
   "app_image_urls": [],
   "verticals": [
     "Others"
-   
   ],
   "markdown": "https://raw.githubusercontent.com/redis-developer/alexis/main/Readme.md"
 }
